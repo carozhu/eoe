@@ -1,0 +1,17 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <style name="AppTheme_Default" parent="@android:style/Theme.Holo.Light.DarkActionBar">
+        <item name="button">@drawable/btn_grey</item>
+        <item name="background">@drawable/backgroud2</item>
+        <item name="textColor">@color/red</item>
+    </style>
+    
+    <style name="AppTheme_Another" parent="AppTheme_Default">
+        <item name="button">@drawable/btn_blue</item>
+        <item name="background">@drawable/backgroud1</item>
+        <item name="android:actionBarStyle">@style/ActionBarStyle</item>
+    </style>
+    
+    <style name="ActionBarStyle" parent="@android:style/Widget.Holo.Light.ActionBar.Solid.Inverse">
+        <item name="android:background">#33b5e5</item>
+    </style>
+</resources>
